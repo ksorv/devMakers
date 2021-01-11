@@ -13,18 +13,24 @@ module.exports = {
       title: "devMakers",
       items: [
         {
-          to: "basics/",
-          activeBasePath: "basics",
+          to: "docs/basics/",
+          activeBasePath: "docs/basics",
           label: "HTML & CSS",
           position: "right",
         },
         {
-          to: "js/",
-          activeBasePath: "js",
+          to: "docs/js/",
+          activeBasePath: "docs/js",
           label: "Learn JS",
           position: "right",
         },
-        { to: "blog", label: "Blog", position: "left" },
+        {
+          to: "docs/react/",
+          activeBasePath: "docs/react",
+          label: "Learn React",
+          position: "right",
+        },
+        // { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/sauravkhoolia/devmakers",
           label: "GitHub",
@@ -40,11 +46,11 @@ module.exports = {
           items: [
             {
               label: "HTML & CSS",
-              to: "basics/",
+              to: "docs/basics/",
             },
             {
               label: "Learn JS",
-              to: "js/",
+              to: "docs/js/",
             },
           ],
         },
@@ -64,10 +70,10 @@ module.exports = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "blog",
+            // },
             {
               label: "GitHub",
               href: "https://github.com/sauravkhdoolia/devmakers",
@@ -85,14 +91,13 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/",
+          editUrl: "https://github.com/sauravkhdoolia/devmakers/edit/master/",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            "https://github.com/facebook/docusaurus/edit/master/website/blog/",
+            "https://github.com/sauravkhdoolia/devmakers/edit/master/blog/",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
