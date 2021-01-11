@@ -12,24 +12,24 @@ module.exports = {
     navbar: {
       title: "devMakers",
       items: [
-        {
-          to: "docs/basics/",
-          activeBasePath: "docs/basics",
-          label: "HTML & CSS",
-          position: "right",
-        },
-        {
-          to: "docs/js/",
-          activeBasePath: "docs/js",
-          label: "Learn JS",
-          position: "right",
-        },
-        {
-          to: "docs/react/",
-          activeBasePath: "docs/react",
-          label: "Learn React",
-          position: "right",
-        },
+        // {
+        //   to: "docs/basics/",
+        //   activeBasePath: "docs/basics",
+        //   label: "HTML & CSS",
+        //   position: "right",
+        // },
+        // {
+        //   to: "docs/js/",
+        //   activeBasePath: "docs/js",
+        //   label: "Learn JS",
+        //   position: "right",
+        // },
+        // {
+        //   to: "docs/react/",
+        //   activeBasePath: "docs/react",
+        //   label: "Learn React",
+        //   position: "right",
+        // },
         // { to: "blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/sauravkhoolia/devmakers",
@@ -44,14 +44,16 @@ module.exports = {
         {
           title: "Learn",
           items: [
-            {
-              label: "HTML & CSS",
-              to: "docs/basics/",
-            },
-            {
-              label: "Learn JS",
-              to: "docs/js/",
-            },
+            // TODO: ENABLE
+            // Disabling now so can check the build
+            // {
+            //   label: "HTML & CSS",
+            //   to: "docs/basics/",
+            // },
+            // {
+            //   label: "Learn JS",
+            //   to: "docs/js/",
+            // },
           ],
         },
         {
