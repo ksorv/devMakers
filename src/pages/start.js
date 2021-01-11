@@ -1,3 +1,3 @@
 import React from "react";
 
-export default () => <p>Start</p>;
+export default () => <p>Whatt!</p>;
